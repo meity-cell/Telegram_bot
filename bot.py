@@ -6,7 +6,7 @@ import random
 import os
 
 # ===================== BOT TOKEN =====================
-TOKEN = "توکن_ربات_تو_اینجا_قرار_بده"
+TOKEN = "8547854866:AAF85Hm1sE7_Gk9flZ_8-gMvw5JGfREk2Gc"
 bot = telebot.TeleBot(TOKEN)
 
 # ===================== MODES =====================
@@ -153,4 +153,5 @@ def chat(msg):
         bot.reply_to(msg, random.choice(normal_responses))
 
 # ===================== RUN BOT =====================
+
 bot.infinity_polling()
